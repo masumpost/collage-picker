@@ -10,11 +10,16 @@ import Collages from './Components/Collages';
 import Main from './Components/Main';
 import Admission from './Components/Admission';
 import MyCollage from './Components/MyCollage';
+import Login from './Components/Login';
+import Register from './Components/Register';
+import ErrorPage from './Components/Errorpage';
+import AuthProvider from './Provider/AuthProvider';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -29,8 +34,16 @@ const router = createBrowserRouter([
         element: <Admission></Admission>
       },
       {
-        path:"/myCollage",
+        path: "/myCollage",
         element: <MyCollage></MyCollage>
+      },
+      {
+        path: "/login",
+        element: <Login></Login>
+      },
+      {
+        path: "/register",
+        element: <Register></Register>
       }
     ]
   },
@@ -38,6 +51,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-       <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </React.StrictMode>,
 )

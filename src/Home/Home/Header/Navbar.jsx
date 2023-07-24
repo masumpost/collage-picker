@@ -1,6 +1,17 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../../Provider/AuthProvider";
+import {  FaUserCircle } from 'react-icons/fa';
 
 const Navbar = () => {
+
+    const { user, logOut } = useContext(AuthContext);
+
+    const handelLogOut = () =>{
+        logOut()
+        .then()
+        .catch(error => console.log(error))
+      }
 
     const navOptions = <>
         <li><Link to='/'>Home</Link></li>
@@ -26,11 +37,17 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                       {navOptions}
+                        {navOptions}
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-sm">Login</a>
+                    {user && <FaUserCircle className="text-4xl mr-3"></FaUserCircle>}
+                    {
+                        user ?
+                            <Link onClick={handelLogOut} className="btn" >logOut</Link>
+                            :
+                            <Link className="btn" to="/login">login</Link>
+                    }
                 </div>
             </div>
         </div>

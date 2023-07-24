@@ -1,0 +1,39 @@
+[
+    {
+      "college_name": "University of ABC",
+      "college_image": "https://i.ibb.co/ypdntDc/graduate1.jpg"
+    },
+    {
+      "college_name": "XYZ College",
+      "college_image": "https://i.ibb.co/TYc4XY4/graduate2.jpg"
+    },
+    {
+      "college_name": "ABC Institute of Technology",
+      "college_image": "https://i.ibb.co/Z1KW8y6/graduate3.jpg"
+    },
+    {
+      "college_name": "City University",
+      "college_image": "https://i.ibb.co/9bfv3L0/graduate4.jpg"
+    },
+    {
+      "college_name": "Sunshine College of Arts",
+      "college_image": "https://i.ibb.co/ZV6Jtkr/graduate5.jpg"
+    },
+    {
+      "college_name": "National Institute of Science",
+      "college_image": "https://i.ibb.co/CnzZN0K/graduate6.jpg"
+    },
+    {
+      "college_name": "ABC Business School",
+      "college_image": "https://i.ibb.co/Z1KW8y6/graduate3.jpg"
+    },
+    {
+      "college_name": "DEF Medical College",
+      "college_image": "https://i.ibb.co/TYc4XY4/graduate2.jpg"
+    },
+    {
+      "college_name": "GHI Engineering Institute",
+      "college_image": "https://i.ibb.co/ypdntDc/graduate1.jpg"
+    }
+  ]
+  

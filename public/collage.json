@@ -1,0 +1,51 @@
+[
+    {
+      "college_image": "https://i.ibb.co/JvtfXmK/college1.jpg",
+      "college_name": "University of ABC",
+      "admission_dates": "jan23 - Feb23",
+      "events": "Orientation Week",
+      "research_history": "Established in 1950, University of ABC has a rich history of groundbreaking research in various fields.",
+      "sports": "football"
+    },
+    {
+      "college_image": "https://i.ibb.co/kxDf8sL/college2.jpg",
+      "college_name": "XYZ College",
+      "admission_dates": "jan23 - Feb23",
+      "events": "Orientation Week",
+      "research_history": "XYZ College is known for its innovative research projects in the fields of engineering and computer science.",
+      "sports": "cricket"
+    },
+    {
+      "college_image": "https://i.ibb.co/r4nb4ZH/college3.jpg",
+      "college_name": "ABC Institute of Technology",
+      "admission_dates": "jan23 - Feb23",
+      "events": "Orientation Week",
+      "research_history": "The ABC Institute of Technology has been at the forefront of cutting-edge research in information technology.",
+      "sports":"Golf"
+    },
+    {
+      "college_image": "https://i.ibb.co/9cX3nys/college4.jpg",
+      "college_name": "City University",
+      "admission_dates": "jan23 - Feb23",
+      "events": "Orientation Week",
+      "research_history": "City University has a strong history of research contributions in social sciences and humanities.",
+      "sports": "Baseball"
+    },
+    {
+      "college_image": "https://i.ibb.co/f4z3TCw/college5.jpg",
+      "college_name": "Sunshine College of Arts",
+      "admission_dates": "jan23 - Feb23",
+      "events": "Orientation Week",
+      "research_history": "Sunshine College of Arts is known for promoting creativity and artistic expression through its research endeavors.",
+      "sports":"Dancing"
+    },
+    {
+      "college_image": "https://i.ibb.co/9bQGn8Y/collage6.jpg",
+      "college_name": "National Institute of Science",
+      "admission_dates": "jan23 - Feb23",
+      "events": "Orientation Week",
+      "research_history": "The National Institute of Science has been instrumental in advancing scientific knowledge in various disciplines.",
+      "sports": "Cricket"
+    }
+  ]
+  
